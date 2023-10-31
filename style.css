@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-
-
 body{
     background-color: #eff7ff;
     
@@ -65,3 +63,9 @@ button.btn--circle {
     width: 60px; /* アイコンの幅 */
     height: 60px; /* アイコンの高さ */
   }
+
+@media screen and (max-width: 480px) {
+    #output {
+        font-size: 150%;
+    }
+}

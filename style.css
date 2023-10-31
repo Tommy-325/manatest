@@ -70,4 +70,7 @@ button.btn--circle {
         background-corror: yellow;
         corror: #8f64ab;
     }
+    h3 {
+        font-size: 500%;
+    }
 }

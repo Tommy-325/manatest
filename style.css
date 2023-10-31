@@ -67,5 +67,6 @@ button.btn--circle {
 @media screen and (max-width: 480px) {
     #output {
         font-size: 150%;
+        background-corror: yellow;
     }
 }

@@ -27,7 +27,7 @@ function endfn() {
     icon.src = '2x/baseline_mic_black_24dp.png'; // マイクアイコンに切り替え
     console.log('stop_' + icon.src + '_' + btn.getAttribute('onclick'));
     if (utterance != '') {
-        output.innerHTML = "<br>" + utterance + output.innerHTML;
+        output.innerHTML = "<br> <div>" + utterance  + <div> + output.innerHTML;
     }
 }
 
